@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto Italiano - Fine Italian Cuisine</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+					<img src="images/logo.jpg" alt="My Image" width="200">
+				</a>
+            </div>
+            <nav class="nav-buttons">
+                <a href="index.html" class="nav-btn active">Home</a>
+                <a href="menu.html" class="nav-btn">Menu</a>
+                <a href="about.html" class="nav-btn">About Us</a>
+                <a href="contact.html" class="nav-btn">Contact Us</a>
+            </nav>
+            <a href="reservation.html" class="book-btn">Book a Table</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: url('images/slide1.jpg');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <h2>Authentic Italian Cuisine</h2>
+                <p>Experience the taste of Italy with our handcrafted dishes made from the finest ingredients and traditional recipes.</p>
+                <a href="#" class="btn">Explore Our Menu</a>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('images/slide2.jpg');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <h2>Wood-Fired Pizza</h2>
+                <p>Our authentic wood-fired pizzas are made with hand-stretched dough and fresh ingredients straight from Italy.</p>
+                <a href="#" class="btn">View Pizza Menu</a>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('images/slide3.jpg');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <h2>Fresh Pasta Daily</h2>
+                <p>We make our pasta from scratch every day using traditional techniques and the finest semolina flour.</p>
+                <a href="#" class="btn">Pasta Specialties</a>
+            </div>
+        </div>
+        
+        <!-- Navigation arrows -->
+        <div class="slider-arrow arrow-left">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="slider-arrow arrow-right">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        
+        <!-- Dots navigation -->
+        <div class="slider-nav">
+            <div class="slider-dot active" data-slide="0"></div>
+            <div class="slider-dot" data-slide="1"></div>
+            <div class="slider-dot" data-slide="2"></div>
+        </div>
+    </section>
+
+    <!-- Dish of the Day Section -->
+    <section class="dish-of-day">
+        <div class="container">
+			<h2 class="dish-badge">Dish <span>of the Day</span></h2>
+            <div class="dish-container">
+                <div class="dish-image">
+                    <img src="images/Risotto.jpg" alt="Truffle Mushroom Risotto">
+                </div>
+                <div class="dish-content">
+                    
+                    <h2>Truffle Mushroom <span>Risotto</span></h2>
+                    <p>Indulge in our creamy Arborio rice cooked to perfection with wild mushrooms, finished with white truffle oil and Parmesan cheese. A luxurious dish that embodies the essence of Northern Italian cuisine.</p>
+                    <div class="dish-price">$18.99</div>
+                    <div class="dish-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Prep: 15 min</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-cheese"></i>
+                            <span>Vegetarian</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-fire"></i>
+                            <span>620 calories</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Dishes Section -->
+    <section class="popular-dishes">
+        <div class="container">
+            <h2 class="section-title">Our <span>Popular Dishes</span></h2>
+            <div class="dishes-container">
+                <div class="dish-card">
+                    <div class="dish-img" style="background-image: url('images/Spaghetti.jpg');"></div>
+                    <div class="dish-info">
+                        <h3>Spaghetti Carbonara</h3>
+                        <p>Classic Roman pasta dish with eggs, cheese, pancetta, and black pepper.</p>
+                        <span class="price">$16.99</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img" style="background-image: url('images/Pizza.jpg');"></div>
+                    <div class="dish-info">
+                        <h3>Margherita Pizza</h3>
+                        <p>Traditional Neapolitan pizza with tomato, mozzarella, and fresh basil.</p>
+                        <span class="price">$14.99</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img" style="background-image: url('images/Tiramisu.jpg');"></div>
+                    <div class="dish-info">
+                        <h3>Tiramisu</h3>
+                        <p>Iconic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.</p>
+                        <span class="price">$8.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Types Section -->
+    <section class="food-types">
+        <div class="container">
+            <h2 class="section-title">Our <span>Specialties</span></h2>
+            <div class="types-container">
+                <div class="type-card">
+                    <i class="fas fa-pizza-slice type-icon"></i>
+                    <h3>Wood-Fired Pizzas</h3>
+                    <p>Authentic pizzas cooked in our traditional wood-fired oven for that perfect crispiness.</p>
+                </div>
+                <div class="type-card">
+                    <i class="fas fa-bowl-food type-icon"></i>
+                    <h3>Fresh Pasta</h3>
+                    <p>Handmade pasta daily using traditional techniques and premium semolina flour.</p>
+                </div>
+                <div class="type-card">
+                    <i class="fas fa-wine-glass-alt type-icon"></i>
+                    <h3>Wine Selection</h3>
+                    <p>Curated selection of fine Italian wines to complement your meal perfectly.</p>
+                </div>
+                <div class="type-card">
+                    <i class="fas fa-ice-cream type-icon"></i>
+                    <h3>Gelato & Desserts</h3>
+                    <p>Authentic Italian gelato and desserts made in-house with premium ingredients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu CTA Section -->
+    <section class="menu-cta">
+        <div class="container">
+            <h2>Explore Our Full Menu</h2>
+            <p>Discover our extensive selection of authentic Italian dishes, from appetizers to desserts, carefully crafted by our master chefs.</p>
+            <a href="menu.html" class="btn btn-outline">View Full Menu</a>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer <span>Reviews</span></h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" class="reviewer-img">
+                        <div class="reviewer-info">
+                            <h4>Sarah Johnson</h4>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"The best Italian restaurant in town! The pasta was cooked to perfection and the flavors were incredible. The atmosphere was cozy and authentic. Will definitely be back!"</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="reviewer-img">
+                        <div class="reviewer-info">
+                            <h4>Michael Chen</h4>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Absolutely loved the pizza! The crust was thin and crispy, just how I like it. The service was excellent and the wine selection paired perfectly with our meal."</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Emma Rodriguez" class="reviewer-img">
+                        <div class="reviewer-info">
+                            <h4>Emma Rodriguez</h4>
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"The dessert menu is to die for! The tiramisu was the best I've had outside of Italy. The staff was friendly and knowledgeable about the menu. Highly recommend!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section class="reservation-cta">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <p>Book your table now and experience the authentic taste of Italy in the heart of the city. We recommend reserving in advance, especially for weekend dining.</p>
+            <a href="reservation.html" class="btn">Reserve Your Table</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Gusto Italiano</h3>
+                    <p>Authentic Italian cuisine crafted with passion and tradition since 1998.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <ul>
+                        <li>Monday - Thursday: 11am - 10pm</li>
+                        <li>Friday - Saturday: 11am - 11pm</li>
+                        <li>Sunday: 12pm - 9pm</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Pasta Street, Foodville</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@gustoitaliano.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Gusto Italiano. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
